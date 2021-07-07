@@ -18,11 +18,6 @@ export default defineComponent({
     const contributions = ref([]);
     const queryContributions = () => {
       if (username.value) {
-        // axios
-        //   .get(`http://42.192.209.154:8081/contributions/${username.value}/`)
-        //   .then((res) => {
-        //     contributions.value = res.data.data;
-        //   });
         contributions.value = [
           {
             date: "2020-07-05",
